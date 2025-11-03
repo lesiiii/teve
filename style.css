@@ -35,4 +35,16 @@ input{
 	width:30%;
 }
 
+.tevekep {
+	float: right;
+}
 
+/*superscript avagy felrakott betűk css-ben*/
+#romhanyi {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+.link {
+	float: right;
+}
