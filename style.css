@@ -23,12 +23,11 @@ input{
 
 #vers{
 	width:600px;
-	margin: 0 auto;
 }
 
-#fohasz{
+.fohasz{
 	font-style:italic; 
-	text-align:center;  
+	text-align:center;
 }
 
 #oazis{
@@ -55,4 +54,17 @@ input{
 #vonal {
 	width: 100%;
 	height: 3px;
+	color: orange;
+	background-color: orange;
+}
+
+#vonal2 {
+	width: 100%;
+	height: 3px;
+	color: orange;
+	background-color: orange;
+}
+
+body {
+	padding: 100px;
 }

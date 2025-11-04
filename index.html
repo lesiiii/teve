@@ -10,13 +10,12 @@
 <body style="background-image: url('sivatag.jpg');" id="bi">
 	<div>
 		<h1>Romhányi József*</h1><hr id="vonal">
-
 		<p>„Romhányi, a rímhányó” – nem hiába kapta ezt a jelzőt Romhányi József író, költő, akinek többek között a
 			Mézga család, a Dr. Bubó, vagy a Frédi és Béni pazar szövegeit is köszönhetjük. Gyerekek ezrei nőttek fel
 			állatversein, melyek közül most a teve fohászát elevenítjük fel.</p>
 		<div id="vers">
 
-			<h2><u>A teve fohásza.</u></h2>
+			<h2>A teve fohásza.</h2>
 			<img class="tevekep" src="teve.png" alt="teve"
 				title="teve"><!--a title az hogy ha az egered ráviszed megjelenjen a szó amit be írsz-->
 			<p>Monoton<br />
@@ -40,8 +39,8 @@
 				Az itató tava távol,<br />
 				s oly rettentô messze még az oázis.<br />
 				Erre utal az alábbi fohász is:</p>
-			<div id="fohasz">
-				<p>- Tevék ura!<br />
+
+				<p class="fohasz">- Tevék ura!<br />
 					Te tevél tevévé engem eleve,<br />
 					Teveled nem ér fel tevefej tétova veleje.<br />
 					Te terved veté a tevevedelô tavat tavaly távol,<br />
@@ -58,13 +57,13 @@
 					legyen eme<br />
 					neveletlen tevetetem<br />
 					eltemetve!</p>
-			</div>
 		
 		<p>S evezzevel ava teve<br />
 			levelkévét kivilevelhevelteve.</p>
 		<p id="romhanyi" class="misc"><sup>*</sup>Született: 1921. március 8. (Nagytétény) - Elhunyt: 1983. május 7. (Budapest)</p>
 
 		<p class="link"><a href="http://www.hirlevelplusz.hu/teve-fohasza-ime-egy-bizonyitek-hogy-romhanyi-jozsef-egy-zseni-volt-video/" title="Forrás" > Forrás</a></p>
+		<hr id="vonal2">
 
 
 		<h2>Fejtörő</h2>
@@ -72,11 +71,14 @@
 		<p>Egy oázisban tevék és struccok mászkálnak. Összesen 24 fejük és 58 lábuk van. Hány teve és hány strucc van az
 			oázisban?</p>
 		<img src="oazis.png" alt="oazis" class="tevekep">
-		<p><label for="szám">Teve:</label> </p>
-		<input type="number" id="teve" name="teve" value="number">
-		<p><label for="szám">Strucc:</label></p>
-		<input type="number" id="strucc" name="strucc" value="number">
-		<button type="button" onclick="">Tip</button>
+		<form action="">
+			<label for="nev">Név: </label>
+			<input type="number" id="nev">
+			<input type="submit" value="Küldés">
+		</form>
+
+		<p>Strucc:</p>
+		<p>Teve:</p>
 	</div>
 	</div>
 </body>
