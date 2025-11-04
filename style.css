@@ -43,8 +43,15 @@ input{
 #romhanyi {
 	vertical-align: super;
 	font-size: smaller;
+	padding: 10px;
+	float: right;
 }
 
 .link {
 	float: right;
+	font-size: larger;
+}
+
+#sivatag {
+	
 }
