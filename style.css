@@ -52,6 +52,11 @@ input{
 	font-size: larger;
 }
 
-#sivatag {
-	
+#bi {
+	height: fit-content;
+	max-width: fit-content;
+}
+
+body {
+	margin: auto;
 }
