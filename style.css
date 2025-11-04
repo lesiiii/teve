@@ -51,12 +51,3 @@ input{
 	float: right;
 	font-size: larger;
 }
-
-#bi {
-	height: fit-content;
-	max-width: fit-content;
-}
-
-body {
-	margin: auto;
-}
