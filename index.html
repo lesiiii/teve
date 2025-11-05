@@ -70,18 +70,31 @@
 		<p>Egy oázisban tevék és struccok mászkálnak. Összesen 24 fejük és 58 lábuk van. Hány teve és hány strucc van az
 			oázisban?</p>
 		<img src="oazis.png" alt="oazis" class="tevekep">
+			<!--valami gombokkal-->
 		<form action="">
-			<label for="nev">Név: </label>
+			<label for="nev" style="display: block;">Név: </label>
 			<input type="text" id="nev">
-			<input type="submit" value="Küldés">
+			<br>
+
+			<input type="radio" id="true">
+			<label for="true">Igaz</label>
+			<br>
+
+			<input type="radio" id="falses">
+			<label for="false">Hamis</label>
+			<br>
+		
+			<button>Tipp</button>
+			<br>
+		<input type="submit" value="küldés">
 		</form>
 
 		<p><label for="strucc">Strucc:</label></p>
 		<input type="number" id="strucc" name="strucc">
 		<p><label for="teve">Teve:</label></p>
 		<input type="number" id="teve" name="teve"> 
-		<button>Tipp</button>
-		<input type="submit" value="küldés">
+
+
 	</div>
 	</div>
 </body>

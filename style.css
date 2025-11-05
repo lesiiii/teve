@@ -5,9 +5,7 @@ body{
 	margin: auto;
 }
 
-p{
-	text-align:justify;
-}
+
 
 hr{
 	border:2px solid orange;
@@ -69,8 +67,9 @@ input{
 
 body {
 	padding: 100px;
+	margin: auto;
+	margin: 350px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-h1 {
-	
-}
