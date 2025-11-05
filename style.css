@@ -2,6 +2,7 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	font-family:cursive;
+	margin: auto;
 }
 
 p{
@@ -28,6 +29,7 @@ input{
 .fohasz{
 	font-style:italic; 
 	text-align:center;
+	text-transform: uppercase;
 }
 
 #oazis{
@@ -67,4 +69,8 @@ input{
 
 body {
 	padding: 100px;
+}
+
+h1 {
+	
 }
