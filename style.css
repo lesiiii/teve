@@ -42,15 +42,12 @@ input{
 #romhanyi {
 	vertical-align: super;
 	font-size: smaller;
-	padding: 10px;
-	float: right;
 	font-size: 11px;
 	text-align: right;
 	font-style: italic;
 }
 
 .link {
-	float: right;
 	font-size: larger;
 }
 
@@ -74,4 +71,24 @@ body {
 	margin: 350px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+#jobbra {
+	text-align: right;
+	color: orange;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+	background-color: ivory;
+	padding: 10px;
+	border-radius: 5px;
+	border-color: brown;
+}
+
+a:hover {
+	background-color: darkorange;
+	text-decoration: underline;
+	color: white;
 }
