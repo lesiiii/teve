@@ -44,6 +44,7 @@ input{
 	font-size: smaller;
 	padding: 10px;
 	float: right;
+	size: 11px;
 }
 
 .link {
@@ -72,4 +73,3 @@ body {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
