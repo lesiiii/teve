@@ -44,7 +44,9 @@ input{
 	font-size: smaller;
 	padding: 10px;
 	float: right;
-	size: 11px;
+	font-size: 11px;
+	text-align: right;
+	font-style: italic;
 }
 
 .link {
@@ -72,8 +74,4 @@ body {
 	margin: 350px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
-
-#jobbra {
-	
 }
